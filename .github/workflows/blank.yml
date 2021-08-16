@@ -1,4 +1,4 @@
-name: amazonRDP
+ name: amazonRDP
 
 on: workflow_dispatch
 
@@ -6,7 +6,7 @@ jobs:
   build:
 
     runs-on: windows-latest
-    timeout-minutes: 9999
+    timeout-minutes: 9999999999999999999999999999999999999999
 
     steps:
     - name: Downloading Ngrok.
